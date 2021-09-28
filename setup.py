@@ -32,6 +32,7 @@ setuptools.setup(
     description="Python library for fingerprint sensors.",
     packages=setuptools.find_packages(),
     install_requires=read_requirements(),
+    include_package_data=True,
     python_requires='>=3.6',
     keywords = ['fingerprint', 'FingerReader'],
 )
